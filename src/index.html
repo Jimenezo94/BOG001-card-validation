@@ -1,63 +1,64 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Pagos Sepub</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
+<head>
+	<meta charset="utf-8">
+	<title>Pagos Sepub</title>
+	<link rel="stylesheet" href="style.css" />
+</head>
 
-    </header>
-    <main>
-      <section id ="primerapagina" class ="entrada1">
-        <h1>¡ En sinergia S.A siempre pensamos en tu comodidad ! </h1> <br>
-          <p> Puedes encontrar aquí todo lo que necesitas para estar al día con tus servicios </p>
-          <input name = "b1" type="submit" value="PQR">
-          <input name = "b2" type="submit" value = "Pagar">
-          <input name = "b3" type="submit" value="Guia">
-          <br>
-         </section>
+<body>
+	<header>
+    <h1 id = "text1"> ¡ Pagando tus productos y servicio con <strong>Sepub</strong> siempre puedes estar tranquilo y seguro! </h1>
+  </header>
+  
+  <section  id="pantalla1">
+		<main  class="entrada1">
+			<h2> Este producto ha sido seleccionado a través de tu tienda</h2>
 
-      <section> 
-        <form class="formulario-contenedor " id="formulario1" >
-         
-
-         <label for=" "> Número de factura: </label>
-            <input
-            type="Numero de factura"
-            id= "Numero de factura"
-            placeholder="Numero de factura"
-            name= "Numero de factura"
-            required /> <br>
-            
-            <label for=" "> Numero de tarjeta: </label>
-            
-            <input
-              type="number"
-              placeholder="Numero"
-              id= "number"
-              name=" number"
-              required /> <br>
-            
- 
-         <label for=" "> Seleccione su banco: </label> 
-
-         <select name="value">
-            <option value="value1"> Bancoomeva</option>
-            <option value="value2"> Banseguro</option>
-            <option value="value3">Tercer milenio</option> <br>
-
-            
-          <input type="submit"   value="Pagar"  />
-         </select>
-           
-        
-        
-       </form>  
-      </section>
+			<img src="img/descarga.jpg" alt="imagen computador">
+			<p class="precio"><strong>$ 1.300.000</strong></p>
+      <p> Este es tu producto seleccionado <br> Haz click en pagar si deseas continuar la compra</p>
+      
+			<div class="tres-btn">
+        <input class="inputt" type="submit" value="PQR">
+        <input id="button"  type="submit" value=Pagar >
+        <input class="inputt" type="submit" value="Guia">
+      </div>
     </main>
-    <footer> Junio 2020 J&G</footer>
-    <script src="index.js" type="module"></script>
-  </body>
+   </section> 
+
+    <div>
+  <section id="pantalla2" > 
+    <main class="entrada2">
+		<form class="formulario-contenedor " id="formulario1" >
+
+					<label for=" "> Nombre: </label>
+					<br>
+					<input id="name" type="text" placeholder=" "  required />
+					<br>
+					<div >
+						<label for=" "> Numero de tarjeta: </label> 
+
+						<input type="number" placeholder=" " id="number" required /> <br>
+					</div>
+
+					<label for=" "> Seleccione su banco: </label>
+
+					<select name="value">
+						<option value="value1"> Bancoomeva</option>
+						<option value="value2"> Banseguro</option>
+						<option value="value3">Tercer milenio</option> <br>
+
+            <input id="button" type="submit" value="Pagar" >
+          </select>
+
+				</div>
+			</form>
+		</main>
+  </section>
+</div>
+	<footer> Junio 2020 J&G</footer>
+	<script src="index.js" type="module"></script>
+</body>
+
 </html>

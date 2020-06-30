@@ -1,22 +1,25 @@
 import validator from "./validator.js";
 
 const objectdata = document.getElementById("formulario1");
- 
-objectdata.addEventListener("submit", enmascarar); 
-//objectdata.addEventListener("submit", validar);        //addEventListener
+ objectdata.addEventListener("submit", enmascarar); 
+        //addEventListener
 
-    //var sumatoria=0;
-//var dato="fsdfsdf90";
-    //alert(validator.maskify(dato));
-//console.log(validator.maskify("datonumero"));
 
+document.querySelector('#pantalla2').style.display = 'none';
+let dd = document.querySelector('#button');
+dd.addEventListener("click",vista2);
+
+function vista2() {
+    document.querySelector('#pantalla1').style.display = 'none';
+    document.querySelector('#pantalla2').style.display = 'block';
+}
 
 function enmascarar(){
     const datonumero = document.getElementById("number").value;
     alert ("Su número de tarjeta es " + validator.maskify(datonumero) + "\n" + validator.isValid(datonumero))
     
 }
-
+ 
 /*function validar(){
     const datonumero = document.getElementById("number").value;
     alert (validator.isValid(datonumero))

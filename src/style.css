@@ -1,43 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 body {
-    background-color: rgb(80, 255, 89);
-    background-size:900px;
-    background-position: center;
- }
+	margin: 0;
+	padding: 0;
+	background-color: rgb(44, 194, 94);
+	background-size: cover;
+	font-family: 'Roboto', sans-serif;
+}
+h1{
+   align-items: center;
+border-style: solid ;
+   background: rgba(235, 49, 49, 0.637);
+   text-align: center;
+   
+}
+h2{
+   align-items: center;
+   background: rgba(235, 49, 235, 0.637);
+   text-align: center;
+}
 
-h1 {
-   color: black ;
-   font-size:22;
-   font-family: Arial;
-   text-align:center;
-   }
+main {
+	background: rgba(235, 49, 49, 0.637);
+	align-items: center;
+}
 
-p {
-   color:black;
-   font-size: 35;
-   font-family: Times;
-   text-align:center;
-   background-color: rgb(102, 107, 100);
-}  
+.entrada1,
+.formulario-contenedor,
+.final{
+	margin-top: 20px;
+	background-color: #fff;
+	border-radius: 8px;
+	width: 300px;
+	padding: 30px;
+	margin: auto;
+   text-align: center;
+   border: 3px solid black;
+}
 
-form {color:black;
-    font-size: 35;
-    font-family: Times;
-    text-align:center
+#button {
+	border: 0;
+	background-color: #8eca03;
+	width: 130px;
+	height: 35px;
+	text-align: center;
+	border-radius: 30px;
+	margin: 10px;
+	color: #fff;
+}
+
+.inputt {
+	width: 130px;
+	border: 0;
+	background: rgba(200, 200, 200, 0.9);
+	height: 35px;
+	text-align: center;
+	border-radius: 30px;
+	margin: 5px;
+	margin: 10px;
 
 }
 
-footer {
-    width: 100%;
-    position: relative;
-    bottom: 0;
-    box-shadow: 0 -1px 10px;
-  }
+.precio{
+	font-size: 40px;
+}
 
-#hh {
-    text-align:center;
- }
- #gg{
-    border-radius: 15px;
-    outline: none;
-   border: 0;
- }
+input {
+	border: 0;
+	background: rgba(200, 200, 200, 0.9);
+	width: 300px;
+	height: 35px;
+	text-align: center;
+	border-radius: 30px;
+	margin: 5px;
+
+}
+
+.tres-btn{
+	display: flex;
+	width: auto;
+}
+
+.contenedor2 {
+	margin-top: 150px;
+	background-color: #fff;
+	border-radius: 10px;
+	width: 400px;
+	padding: 30px;
+	margin: auto;
+	text-align: center;
+}
+
+footer {
+   text-align: center;
+   background-color: rgb(235, 55, 79);
+   padding: 10px;
+}
