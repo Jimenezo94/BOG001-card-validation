@@ -13,12 +13,12 @@ La aplicacion web es una plataforma de compras de dispositivos electronicos, don
 Los usuarios son personas interesadas en adquirir un producto de manera digital utilizando medios de pago en línea como lo es la tarjeta de credito, para finalizar la trasacción.
 
 ## 4. Soluciona de las necesidades de los usuarios
-<<<<<<< HEAD
 
 Si el usuario tiene la necesidad de sentirse en un proceso nada complejo y seguro a la hora de realizar sus compras, esta manera y sus funciones puden hacer que el cliente se sienta bien.
 
 ## 5. Prototipo en papel
  ![alt text](http:src/img/SKECTH.jpeg)
+ ![alt text](https://github.com/Jimenezo94/BOG001-card-validation/blob/master/src/img/SKECTH.jpeg)
 
 
 ## 6. Feedback
@@ -29,8 +29,6 @@ Si el usuario tiene la necesidad de sentirse en un proceso nada complejo y segur
 ## 7. Final
 
 UX
-
-=======
 
 Si el usuario tiene la necesidad de sentirse en un proceso nada complejo y seguro a la hora de realizar sus compras, esta manera y sus funciones puden hacer que el cliente se sienta bien.
 
@@ -47,7 +45,6 @@ Si el usuario tiene la necesidad de sentirse en un proceso nada complejo y segur
 
 UX
 
->>>>>>> ae0249c20b9928aa2979c2533d07e539ff19c0bc
 * [ x] Diseñar la aplicación pensando y entendiendo al usuario
 * [x ] Crear prototipos para obtener feedback e iterar
 * [ ] Aplicar los principios de diseño visual
