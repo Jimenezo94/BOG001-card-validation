@@ -18,6 +18,7 @@ Si el usuario tiene la necesidad de sentirse en un proceso nada complejo y segur
 
 ## 5. Prototipo en papel
  ![alt text](http:src/img/SKECTH.jpeg)
+ ![alt text](https://github.com/Jimenezo94/BOG001-card-validation/blob/master/src/img/SKECTH.jpeg)
 
 
 ## 6. Feedback
