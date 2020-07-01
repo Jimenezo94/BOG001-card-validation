@@ -1,5 +1,6 @@
-const validator = {
-  maskify: function (dato){
+const valid = {   //Objeto de dos funciones(Isvalid y Maskify)
+    
+  maskify : function (dato){
     if (String(dato).length<4){
         return String(dato)
 
@@ -7,8 +8,7 @@ const validator = {
     else{
     
         let enmascarado = "#".repeat(String(dato).length-4) + String(dato).slice(-4);
-    
-    //let nrever = String(dato).split("").reverse().join(""); //el dato se vuelve array cuando se aplica split y deja de serlo con join
+                            //el dato se vuelve array cuando se aplica split y deja de serlo con join
         
     return enmascarado;
     }
@@ -19,11 +19,10 @@ const validator = {
     var sumatoria=0;
 
     var nrever = String(dato).split("").reverse().join("");
-    console.log(nrever)  //el dato se vuelve array cuando se aplica split y deja de serlo con join
+    console.log(nrever)
     
     for (var indice = 0; indice< nrever.length; indice++){
 
-      //sumatoria=sumatoria+2
     if (indice % 2 == 1) {
 
         if (parseInt(nrever[indice])*2>=10){
@@ -51,4 +50,4 @@ const validator = {
 }
 }
 
-export default validator;
+export default valid;

@@ -1,7 +1,7 @@
-import validator from "./validator.js";
+import valid from "./validator.js";
 
 const objectdata = document.getElementById("formulario1");
- objectdata.addEventListener("submit", enmascarar); 
+ objectdata.addEventListener("submit", metodo); 
         //addEventListener
 
 
@@ -14,9 +14,9 @@ function vista2() {
     document.querySelector('#pantalla2').style.display = 'block';
 }
 
-function enmascarar(){
+function metodo(){
     const datonumero = document.getElementById("number").value;
-    alert ("Su número de tarjeta es " + validator.maskify(datonumero) + "\n" + validator.isValid(datonumero))
+    alert ("Su número de tarjeta es " + valid.maskify(datonumero) + "\n" + valid.isValid(datonumero))
     
 }
  
@@ -25,5 +25,5 @@ function enmascarar(){
     alert (validator.isValid(datonumero))
 
 }*/
-///Console.log(validator.maskify(datonumero)); //variable, funcion, metodo
-console.log(validator.isValid(30630138407745)) ; 
+
+console.log(valid.isValid(30630138407745)) ; 
