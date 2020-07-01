@@ -13,6 +13,7 @@ La aplicacion web es una plataforma de compras de dispositivos electronicos, don
 Los usuarios son personas interesadas en adquirir un producto de manera digital utilizando medios de pago en línea como lo es la tarjeta de credito, para finalizar la trasacción.
 
 ## 4. Soluciona de las necesidades de los usuarios
+<<<<<<< HEAD
 
 Si el usuario tiene la necesidad de sentirse en un proceso nada complejo y seguro a la hora de realizar sus compras, esta manera y sus funciones puden hacer que el cliente se sienta bien.
 
@@ -29,6 +30,24 @@ Si el usuario tiene la necesidad de sentirse en un proceso nada complejo y segur
 
 UX
 
+=======
+
+Si el usuario tiene la necesidad de sentirse en un proceso nada complejo y seguro a la hora de realizar sus compras, esta manera y sus funciones puden hacer que el cliente se sienta bien.
+
+## 5. Prototipo en papel
+
+
+
+## 6. Feedback
+
+-Simplifiar el proceso y enfocarse en el objetivo del proyecto.
+-Buena idea la de validar mediante un mensaje para el usuario, si la informacion registrada en valida o no.
+
+## 7. Final
+
+UX
+
+>>>>>>> ae0249c20b9928aa2979c2533d07e539ff19c0bc
 * [ x] Diseñar la aplicación pensando y entendiendo al usuario
 * [x ] Crear prototipos para obtener feedback e iterar
 * [ ] Aplicar los principios de diseño visual
