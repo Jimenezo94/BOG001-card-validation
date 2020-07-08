@@ -11,8 +11,8 @@
     <h1 id = "text1"> ¡ Pagando tus productos y servicio con <strong>Sepub</strong> siempre puedes estar tranquilo y seguro! </h1>
   </header>
   
-  <section  id="pantalla1">
-		<main  class="entrada1">
+  <div  id="pantalla1">
+		<main class="entrada1">
 			<h2> Este producto ha sido seleccionado a través de tu tienda</h2>
 
 			<img src="img/descarga.jpg" alt="imagen computador">
@@ -21,42 +21,32 @@
       
 			<div class="tres-btn">
         <input class="inputt" type="submit" value="PQR">
-        <input id="button"  type="submit" value=Pagar >
+        <input id="button"  type="submit" value="Pagar" >
         <input class="inputt" type="submit" value="Guia">
       </div>
     </main>
-   </section> 
+   </div> 
 
-    <div>
-  <section id="pantalla2" > 
+   
+  <div id="pantalla2" > 
     <main class="entrada2">
 		<form class="formulario-contenedor " id="formulario1" >
 
-					<label for=" "> Nombre: </label>
+					<label for=" "> <strong> Nombre: </strong> </label>
 					<br>
 					<input id="name" type="text" placeholder=" "  required />
 					<br>
-					<div >
-						<label for=" "> Numero de tarjeta: </label> 
+				
+						<label for=" "> <strong> Numero de Tarjeta: </strong> </label> 
 
 						<input type="number" placeholder=" " id="number" required /> <br>
-					</div>
+						<input id="button2" type="submit" value="Pagar" >
+		</form>
+	</main>
+    </div>
+	
 
-					<label for=" "> Seleccione su banco: </label>
 
-					<select name="value">
-						<option value="value1"> Bancoomeva</option>
-						<option value="value2"> Banseguro</option>
-						<option value="value3">Tercer milenio</option> <br>
-
-            <input id="button" type="submit" value="Pagar" >
-          </select>
-
-				</div>
-			</form>
-		</main>
-  </section>
-</div>
 	<footer> Junio 2020 J&G</footer>
 	<script src="index.js" type="module"></script>
 </body>

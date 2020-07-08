@@ -17,9 +17,9 @@ const valid = {   //Objeto de dos funciones(Isvalid y Maskify)
   isValid: function (dato){
   
     var sumatoria=0;
-
+          //el dato se vuelve array cuando se aplica split y deja de serlo con join
     var nrever = String(dato).split("").reverse().join("");
-    console.log(nrever)
+    
     
     for (var indice = 0; indice< nrever.length; indice++){
 
@@ -36,14 +36,13 @@ const valid = {   //Objeto de dos funciones(Isvalid y Maskify)
     else{
         sumatoria = sumatoria + parseInt(nrever[indice]);
         }
-        //una vez ejecutdo el código, al "indice" se le aplica el incremento y valida en la segunda aconsicion del for 
+        //una vez ejecutdo el código, al "indice" se le aplica el incremento y valida en la segunda condicion del for 
   }
     if (sumatoria%10==0){
-        //alert("Válida");
         return "Tarjeta valida Pago realizado"
         }
     else{
-        //alert ("inválida");
+    
         return "Tarjeta Invalida \n Vuelve a intentarlo"
     }
 

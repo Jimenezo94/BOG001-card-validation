@@ -20,14 +20,8 @@ h2{
    text-align: center;
 }
 
-main {
-	background: rgba(235, 49, 49, 0.637);
-	align-items: center;
-}
-
 .entrada1,
-.formulario-contenedor,
-.final{
+.formulario-contenedor{
 	margin-top: 20px;
 	background-color: #fff;
 	border-radius: 8px;
@@ -37,8 +31,14 @@ main {
    text-align: center;
    border: 3px solid black;
 }
-
-#button {
+.precio{
+	font-size: 40px;
+}
+.tres-btn{
+	display: flex;
+	width: auto;
+    }
+#button{
 	border: 0;
 	background-color: #8eca03;
 	width: 130px;
@@ -55,33 +55,33 @@ main {
 	background: rgba(200, 200, 200, 0.9);
 	height: 35px;
 	text-align: center;
+	font-size: larger;
 	border-radius: 30px;
 	margin: 5px;
 	margin: 10px;
 
 }
-
-.precio{
-	font-size: 40px;
-}
-
 input {
 	border: 0;
-	background: rgba(200, 200, 200, 0.9);
+	background: rgba(200, 200, 200, 0.9); ;
 	width: 300px;
 	height: 35px;
 	text-align: center;
-	border-radius: 30px;
+	font-size: larger;
+	border-radius: 10px;
 	margin: 5px;
 
 }
-
-.tres-btn{
-	display: flex;
-	width: auto;
+#button2{
+	background: rgba(22, 206, 16, 0.9);
+	width: 160px;
+	height: 35px;
+	text-align: center;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: large;
 }
 
-.contenedor2 {
+.pantalla2 {
 	margin-top: 150px;
 	background-color: #fff;
 	border-radius: 10px;
@@ -91,8 +91,15 @@ input {
 	text-align: center;
 }
 
+
+main {
+	background: rgba(235, 49, 49, 0.637);
+	align-items: center;
+}
+
 footer {
    text-align: center;
    background-color: rgb(235, 55, 79);
    padding: 10px;
+   border-radius: 5ex;
 }
