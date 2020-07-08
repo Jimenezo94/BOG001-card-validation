@@ -17,9 +17,9 @@ Los usuarios son personas interesadas en adquirir un producto de manera digital 
 Si el usuario tiene la necesidad de sentirse en un proceso nada complejo y seguro a la hora de realizar sus compras, esta manera y sus funciones puden hacer que el cliente se sienta bien.
 
 ## 5. Prototipo en papel
- ![alt text](http:src/img/SKECTH.jpeg)
  ![alt text](https://github.com/Jimenezo94/BOG001-card-validation/blob/master/src/img/SKECTH.jpeg)
 
+https://trello.com/c/b1T4XkWE/16-prototipo-html link prototipo digital
 
 ## 6. Feedback
 
